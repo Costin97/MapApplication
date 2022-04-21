@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Ms+Madi&family=Roboto:wght@100&family=Ubuntu&display=swap");
+
+.logoutBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.accountIcon {
+  margin-bottom: 4px;
+  margin-right: 24px;
+}
+
+.accountIcon:hover {
+  cursor: pointer;
+}
+
+.logoutPopBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f94f35;
+  background-color: rgb(209, 208, 208);
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 2px;
+  height: 3vh;
+  right: 4px;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.map {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 16px;
+}
+
+.mapContainer {
+  display: flex;
+}
+
+.dataTable {
+  padding: 8px;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.tableRowFav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #ffa124;
+}
+
+.headerColWithSymbolBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.headerColWithSymbolBoxLast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 16px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.6%;
+  text-align: center;
+}
+
+.nameHeader {
+  font-weight: bold;
+}
+
+.countryHeader {
+  font-weight: bold;
+}
+
+.latHeader {
+  font-weight: bold;
+}
+
+.longHeader {
+  font-weight: bold;
+}
+
+.windProbHeader {
+  font-weight: bold;
+}
+
+.monthHeader {
+  font-weight: bold;
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.6%;
+}
+.lat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.6%;
+}
+.long {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.6%;
+}
+.windProb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.6%;
+}
+.month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.6%;
+}
+
+.filterHeaderIcon {
+  cursor: pointer;
+}
+.filterDiv {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end !important;
+  justify-self: flex-end !important;
+  padding: 8px;
+  width: 8%;
+  margin-left: 8px;
+  border-radius: 8px;
+  border-width: 2px;
+  border: 1px solid black;
+}
+
+.filterDiv:hover {
+  cursor: pointer;
+}
+
+.filterButton {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+.filterButton:hover {
+  cursor: pointer;
+}
+
+.filterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 30vw;
+  margin-left: 16px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 16px;
+  margin-top: 8px;
+}
+
+.filterBox label {
+  display: flex;
+  align-self: flex-start;
+  font-size: 12px;
+}
+.filterBox input {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+
+.applyFilterButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  padding: 6px;
+  border-radius: 8px;
+  width: 50%;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.applyFilterButton:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.filterContainer {
+  display: flex;
+}
+
+.closeIcon {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+  color: rgb(111, 106, 106);
+}
+
+.popUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  margin: 0;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+}
+
+.starIcon {
+  color: #ffa124;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.starIcon:hover {
+  cursor: pointer;
+}
+
+.townName {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.countryName {
+  font-family: "Roboto", sans-serif;
+  font-size: 8px;
+  margin: 0;
+  margin-top: 8px;
+  color: rgb(169, 164, 164);
+}
+
+.windProbabilityPara {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 16px !important;
+  margin-bottom: 0 !important;
+  color: rgb(148, 144, 144);
+}
+
+.windProbabilitPer {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+
+.latitudePara {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 16px !important;
+  margin-bottom: 0 !important;
+  color: rgb(148, 144, 144);
+}
+
+.latitudeText {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+
+.longitudePara {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 16px !important;
+  margin-bottom: 0 !important;
+  color: rgb(148, 144, 144);
+}
+
+.longitudeText {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+
+.whenToGoPara {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 16px !important;
+  margin-bottom: 0 !important;
+  color: rgb(148, 144, 144);
+}
+
+.whenToGoData {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px !important;
+  margin-bottom: 8px !important;
+}
+
+.addToFavButton {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 10px;
+  width: 100%;
+  height: 2vh;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffa124;
+}
+
+.addToFavBox:hover {
+  background-color: #ccc;
+  color: #161513;
+  cursor: pointer;
+}
+
+.addToFavButton:hover {
+  background-color: #ccc;
+  color: #161513;
+  cursor: pointer;
+}
+
+.addToFavBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 10px;
+  width: 100%;
+  height: 2vh;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffa124;
+}
+
+.remFromFavBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 10px;
+  width: 100%;
+  height: 2vh;
+  border-radius: 8px;
+  border: none;
+  background-color: #f94f35;
+}
+
+.remFromFavButton {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 10px;
+  width: 100%;
+  height: 2vh;
+  border-radius: 8px;
+  border: none;
+  background-color: #f94f35;
+}
+
+.remFromFavButton:hover {
+  background-color: #ccc;
+  color: #161513;
+  cursor: pointer;
+}
+
+.remFromFavBox:hover {
+  background-color: #ccc;
+  color: #161513;
+  cursor: pointer;
+}
+
+.navLinkToLogin {
+  text-decoration: none;
+}
+
+.searchByLocationBox {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 4px;
+  border: 1px solid black;
+  border-width: 2px;
+  border-radius: 16px;
+  min-width: 15vw;
+  max-width: 15vw;
+  padding: 4px;
+}
+
+.searchIconDisabled {
+  cursor: not-allowed;
+  display: flex;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}
+
+.searchByLocationInput {
+  border: none;
+  display: flex;
+  justify-self: center;
+}
+
+.searchByLocationInput:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.inputBox {
+  display: flex;
+}
+
+.closeLocationBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.closeLocationIcon {
+  cursor: pointer;
+}
+
+.closeLocationIconDisabled {
+  cursor: not-allowed;
+}

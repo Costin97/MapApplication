@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto:wght@100&display=swap");
+.errorText {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(202, 122, 122);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.loginContainer {
+  max-width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginTitle {
+  display: flex;
+  align-self: center;
+  font-family: "Ms Madi", cursive;
+  font-size: 48px;
+  margin: 0;
+}
+
+.usernameBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.usernameBox label {
+  display: flex;
+  align-self: flex-start;
+  justify-self: center;
+  margin-bottom: 4px;
+}
+
+.usernameBox input {
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.passBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.passBox label {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 4px;
+}
+
+.passBox input {
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.linkButtonBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.signUpButton {
+  display: flex;
+  align-self: flex-end;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: rgb(82, 82, 230);
+  font-weight: bold;
+}
+
+.signUpButton:hover {
+  color: #c1b7f4;
+}
+.linkButton {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-top: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(73, 73, 246);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.divWidth {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.linkButtonDisabled {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-top: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: #ccc;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+.linkButton:hover {
+  cursor: pointer;
+  color: rgb(73, 73, 246);
+  background-color: #ccc;
+}
